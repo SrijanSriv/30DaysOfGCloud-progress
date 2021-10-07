@@ -5,7 +5,7 @@ const Banner = () =>{
         <div id = "banner">
         <div id = "overlay">
             <div id = "topic">
-            30 DAYS GOOGLE CLOUD CHALLANGE
+            30 DAYS GOOGLE CLOUD CHALLENGE
             </div>
         </div>
         <img id = "gdsc-banner" alt = "GDSC-Banner" 

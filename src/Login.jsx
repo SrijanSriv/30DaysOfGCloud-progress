@@ -27,8 +27,9 @@ const Login = () => {
         <>
         <div id="login">
             <div id = "info">{info}</div>
-            <form onSubmit = {passAuth}>
-                <input placeholder = "password" type = "text" value = {pass} onChange = {changePassFunc}></input>
+            <form onSubmit = {passAuth} id="login--form">
+                <input placeholder = "password" type = "password" value = {pass} onChange = {changePassFunc} ></input>
+                <button type="submit">Login</button>
             </form>
         </div>
         </>
