@@ -1,6 +1,6 @@
 import { Route,Switch } from 'react-router-dom';
-import Webpage from './Webpage';
-import Login from './Login'
+import Webpage from './pages/Webpage';
+import Login from './pages/Login'
 
 function App() {
   return (
