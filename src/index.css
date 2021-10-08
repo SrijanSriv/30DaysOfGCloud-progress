@@ -2,19 +2,19 @@ body {
   margin: 0;
   font-size: 1.125rem;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Roboto',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Roboto",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.navbar{
+.navbar {
   position: fixed;
   width: 100vw;
   height: 3rem;
@@ -25,25 +25,25 @@ code {
   border: solid 0.15rem grey;
 }
 
-#logo{
+#logo {
   margin-left: 1rem;
 }
 
 /*The id `gdsc-banner` and `overlay` are the image and the darkish overlay resp. moving/resizing one would require doing the same for the
 other too.*/
 
-#gdsc-banner{
+#gdsc-banner {
   margin-top: 4rem;
   margin-bottom: 2rem;
   height: 24rem;
   width: 100vw;
 }
 
-#topic{
+#topic {
   margin-top: 15rem;
 }
 
-#overlay{
+#overlay {
   margin-top: 4rem;
   margin-bottom: 2rem;
   position: absolute;
@@ -54,25 +54,23 @@ other too.*/
   text-align: center;
   justify-content: center;
   font-size: 5rem;
-  text-shadow: 0 0 1rem black;
+  text-shadow: 0 0 1rem #121215;
   -webkit-text-stroke-width: 0.05rem;
   color: aliceblue;
 }
 
-#description{
+#description {
   text-align: center;
 }
 
-#playground{
-  width: 100vw;
-  padding-bottom: 5rem;
-
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+#playground {
+  width: 90vw;
+  margin: auto;
+  height: 60vh;
 }
 
-.badge{ /* centering of this div was done by setting margin as half of viewport width after translating the div itself*/
+.badge {
+  /* centering of this div was done by setting margin as half of viewport width after translating the div itself*/
   display: flex;
   transform: translate(-50%);
   justify-self: center;
@@ -80,16 +78,16 @@ other too.*/
   margin-top: 3rem;
   width: 30rem;
   height: 5rem;
-  background-color: rgb(0, 33, 65);
-  color: #d8d8d8;
+  background-color: rgb(255, 255, 255);
+  color: #121215;
   font-size: 1rem;
   padding-left: 1rem;
   padding-top: 1rem;
-  box-shadow: 0 0 1rem black;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 1rem;
 }
 
-.progress{
+.progress {
   padding-left: 2rem;
   padding-right: 2rem;
   width: 20rem;
@@ -97,11 +95,11 @@ other too.*/
   justify-content: center;
 }
 
-p{
+p {
   font-size: 1.25rem;
 }
 
-#login{
+#login {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -110,20 +108,20 @@ p{
   transform: translate(-50%);
   margin-left: 50vw;
   margin-top: 10rem;
-  padding: 3rem ;
+  padding: 3rem;
   height: 10rem;
   width: 20rem;
-  box-shadow: 0 0 1rem black;
-  border: grey solid 0.1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: solid 1px rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
   font-size: larger;
 }
 
-#info{
+#info {
   margin-bottom: 1rem;
 }
 
-#login--form{
+#login--form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,17 +129,13 @@ p{
   padding-bottom: 1rem;
 }
 
-#login--form input{
-  padding: 5px 18px;
+#login--form input {
   font-size: 1rem;
 }
 
-#login--form button{
-  margin-top: 0.75rem;  
-  width: fit-content;
+#login--form button {
+  margin-top: 0.75rem;
   padding: 10px 25px;
-  background-color: #121215;
-  color: #adadad;
   font-size: 0.75rem;
   font-weight: bold;
 }
