@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from './Navbar';
-import Banner from './Banner';
-import Description from './Description';
-import Playground from './Playground';
+import Navbar from '../components/Navbar';
+import Banner from '../components/Banner';
+import Description from '../components/Description';
+import Playground from '../components/Playground';
 
 const Webpage = () => {
     return(
