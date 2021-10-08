@@ -1,6 +1,6 @@
 import React from 'react';
 import Badge from './Badge';
-import list from './list.json';
+import list from '../list.json';
 
 const Playground = () => {
 
