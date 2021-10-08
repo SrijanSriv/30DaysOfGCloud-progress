@@ -1,5 +1,5 @@
 import React from 'react';
-import Badge from './Badge';
+//import Badge from './Badge';
 import list from '../list.json';
 import { DataGrid } from '@mui/x-data-grid';
 
@@ -36,7 +36,8 @@ const Playground = () => {
                 name: val['Student Name'].toLocaleUpperCase(),
                 track1: val['# of Skill Badges Completed in Track 1'],
                 track2: val['# of Skill Badges Completed in Track 2']
-            })
+            });
+            return ;
             // return (
             //     <Badge id={index} name={val['Student Name']} track1={val['# of Skill Badges Completed in Track 1']} track2={val['# of Skill Badges Completed in Track 2']} />
             // );
