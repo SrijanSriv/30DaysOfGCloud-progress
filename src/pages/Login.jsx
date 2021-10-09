@@ -1,14 +1,16 @@
 import React from "react";
-import { useState } from 'react';
+import { useState, useHistory } from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import { useHistory } from 'react-router-dom';
 
 const Login = () => {
-    const history = useHistory();
+  
+    const history=useHistory();
+  
     let inipass = "";
     let iniinfo = "Enter access key";
-
+    
     const [info, changeInfo] = useState(iniinfo);
     const [pass, changePass] = useState(inipass);
 
@@ -20,7 +22,9 @@ const Login = () => {
         event.preventDefault()
 
         if (pass === "iiitranchi") {
-            history.push("/progress");
+          
+            history.push('/progress');
+          
         }
         else {
             changeInfo("Wrong Password! Try Again.");
