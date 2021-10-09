@@ -1,12 +1,13 @@
 import React from "react";
-import { useState } from 'react';
+import { useState, useHistory } from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 const Login = () => {
+    
     let inipass = "";
     let iniinfo = "Enter access key";
-
+    const history=useHistory();
     const [info, changeInfo] = useState(iniinfo);
     const [pass, changePass] = useState(inipass);
 
@@ -18,7 +19,7 @@ const Login = () => {
         event.preventDefault()
 
         if (pass === "iiitranchi") {
-            window.location.href = "/progress"
+            history.push('/progress');
         }
         else {
             changeInfo("Wrong Password! Try Again.")
