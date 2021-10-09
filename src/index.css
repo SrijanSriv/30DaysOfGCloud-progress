@@ -43,7 +43,7 @@ other too.*/
   height: 40rem;
   width: 100%;
   background: url('./images/Google_Cloud.gif') no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   z-index: -1;
 }
@@ -162,6 +162,7 @@ p {
   }
   #gdsc-banner{
     margin-bottom: 0;
+    background-size: contain;
   }
   #overlay{
     height: 57%;
