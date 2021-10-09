@@ -1,11 +1,12 @@
 import React from "react";
-import { useState, useHistory } from 'react';
+import { useState } from 'react';
+import { useHistory } from "react-router";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 const Login = () => {
   
-    const history=useHistory();
+    const history = useHistory();
   
     let inipass = "";
     let iniinfo = "Enter access key";
