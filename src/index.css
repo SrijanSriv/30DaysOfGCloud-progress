@@ -18,7 +18,7 @@ code {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   width: 100vw;
   height: 3rem;
   z-index: 2;
@@ -40,7 +40,7 @@ other too.*/
 #gdsc-banner {
   /* margin-top: 4rem; */
   margin-bottom: 4rem;
-  height: 40rem;
+  height: 100%;
   width: 100%;
   background: url('./images/Google_Cloud.gif') no-repeat;
   background-size: cover;
